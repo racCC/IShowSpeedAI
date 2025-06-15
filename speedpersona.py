@@ -294,10 +294,11 @@ def init_openai_client():
     try:
         return OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
     except Exception as e:
-        st.error(f"Failed to initialize OpenAI client: {str(e)}")
+        st.error(f"❌ Failed to initialize OpenAI client: {str(e)}")
         return None
 
 client = init_openai_client()
+
 
 
 #system prompt
