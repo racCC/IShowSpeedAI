@@ -1,7 +1,9 @@
 # Updated IShowSpeedAI UI with enhanced chaotic aesthetic
 import os
 import streamlit as st
+import random
 from openai import OpenAI
+
 
 
 
