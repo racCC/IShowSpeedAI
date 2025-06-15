@@ -21,13 +21,14 @@ st.set_page_config(
 # Display top glowing logo using HTML + local path
 st.markdown("""
 <div style="display: flex; justify-content: center; margin-top: 1rem; margin-bottom: 1rem;">
-    <img src="https://raw.githubusercontent.com/racCC/IShowSpeedAI/main/speed.png" ...>
- alt="Speed Logo" 
+    <img src="https://raw.githubusercontent.com/racCC/IShowSpeedAI/main/speed.png"
+         alt="Speed Logo" 
          style="width: 120px; height: 120px; border-radius: 50%; 
                 box-shadow: 0 0 30px #ff003c, 0 0 60px #ff8a00;
                 animation: pulseGlow 2s infinite alternate;">
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
