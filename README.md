@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/7ebac7dc-8dc2-4a01-a949-1322c55bb5d9)
+![image](https://github.com/user-attachments/assets/43a36ef4-7391-454e-86b7-9c8ba91831d1)
+
 # 🐵IShowSpeedAI – Chat with the Wildest AI🔥 on the Internet!
 
 An interactive Streamlit chatbot that mimics the chaotic, high-energy personality of **IShowSpeed** – the GOAT of internet madness. Built for pure fun, memes, and hype. This isn't just a chatbot... it's a digital *stream explosion* 💥
@@ -5,6 +8,7 @@ An interactive Streamlit chatbot that mimics the chaotic, high-energy personalit
 🔴 **Live Demo**: [ishowspeedai.streamlit.app](https://ishowspeedai.streamlit.app)
 
 ---
+
 
 ## 🧰 Tools You’ll Need
 
