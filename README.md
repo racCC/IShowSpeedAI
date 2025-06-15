@@ -2,6 +2,8 @@
 
 An interactive Streamlit chatbot that mimics the chaotic, high-energy personality of **IShowSpeed** – the GOAT of internet madness. Built for pure fun, memes, and hype. This isn't just a chatbot... it's a digital *stream explosion* 💥
 
+🔴 **Live Demo**: [ishowspeedai.streamlit.app](https://ishowspeedai.streamlit.app)
+
 ---
 
 ## 🧰 Tools You’ll Need
@@ -60,7 +62,7 @@ bash
 Copy
 Edit
 streamlit run speedpersona.py
-Open your browser at: http://localhost:8501
+Then open your browser at: http://localhost:8501
 
 ✨ Features
 🔥 Fully custom Speed-like GPT persona (chaotic, hyped, loud)
@@ -91,12 +93,9 @@ Go to streamlit.io/cloud
 
 Connect your GitHub repo
 
-Add your OpenAI key in secrets.toml via Streamlit Secrets Manager
+Add your OpenAI key in secrets.toml via the Streamlit Secrets Manager
 
-BOOM. It’s live.
-
-
+💥 BOOM! It’s live.
 
 🙌 Credits
 Built with ❤️ by Rachit Pednekar
-Not affiliated with IShowSpeed – this is a fan-made parody.
