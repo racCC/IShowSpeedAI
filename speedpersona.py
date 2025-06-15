@@ -297,7 +297,12 @@ def init_openai_client():
         st.error(f"❌ Failed to initialize OpenAI client: {str(e)}")
         return None
 
+
 client = init_openai_client()
+if client is None:
+    st.error("❌ OpenAI client not available — check your secrets.")
+    st.stop()
+
 
 
 
@@ -460,7 +465,7 @@ with chat_container:
             st.markdown(f"""
             <div class="speed-message-wrapper">
                 <div class="speed-avatar">
-                    <img src="speed.jpeg" alt="Speed" />
+                    <img src="https://raw.githubusercontent.com/racCC/IShowSpeedAI/main/speed.png" alt="Speed" />
                     <span>SPEED</span>
                 </div>
                 <div class="speed-message">
